@@ -53,7 +53,7 @@ export const Route = createFileRoute("/_tabs/subject/$courseId")({
    REAL VIDEO + PDF SOURCES
    ========================================================= */
 
-const COURSE_VIDEO_URL = lectureVideo.url;
+const COURSE_VIDEO_URL = "https://files.catbox.moe/t9x4l2.mp4";
 const COURSE_PDF_URL = lecturePdf.url;
 /* =========================================================
    TYPES
