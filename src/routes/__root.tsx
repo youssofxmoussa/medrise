@@ -90,6 +90,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "A calm, Apple-inspired learning app." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "MedRise" },
+      { property: "og:image", content: "https://files.catbox.moe/0yyb3c.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
