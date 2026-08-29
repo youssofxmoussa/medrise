@@ -223,3 +223,15 @@ media-popover {
 .bold-text body {
   font-weight: 600;
 }
+
+.video-js .vjs-control,
+.video-js button {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.video-js .vjs-control:hover,
+.video-js .vjs-control:focus {
+  background: transparent !important;
+}
