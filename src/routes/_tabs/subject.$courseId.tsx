@@ -18,6 +18,8 @@ import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import lectureVideo from "@/assets/video/lecture.mp4.asset.json";
 import lecturePdf from "@/assets/docs/lecture-notes.pdf.asset.json";
+import { VideoPlayer, MinimalVideoSkin, Video } from "@videojs/react/video";
+import "@videojs/react/video/minimal-skin.css";
 
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -455,14 +457,18 @@ function SubjectContent() {
                 ref={videoWrapRef}
                 className="relative aspect-video w-full overflow-hidden rounded-[20px] bg-secondary"
               >
-                <video
-                  key={videoAttempt}
-                  src={COURSE_VIDEO_URL}
-                  playsInline
-                  preload="metadata"
-                  controls
-                  className="size-full object-contain"
-                />
+                <VideoPlayer
+  key={videoAttempt}
+  className="size-full"
+>
+  <MinimalVideoSkin>
+    <Video
+      src={COURSE_VIDEO_URL}
+      playsInline
+      preload="metadata"
+    />
+  </MinimalVideoSkin>
+</VideoPlayer>
 
                 {videoError && (
                   <div
