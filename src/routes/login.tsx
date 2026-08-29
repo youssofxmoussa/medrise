@@ -64,8 +64,13 @@ function SignIn() {
         className="relative z-10 flex w-full max-w-sm flex-col justify-center gap-[clamp(1rem,3.5vh,1.75rem)]"
       >
         <header className="flex flex-col items-center text-center">
-          <img src={logo.url} alt="MedRise" width={1024} height={1024} className="h-[clamp(4.5rem,13vh,6.5rem)] w-full object-contain" />
-          <h1 className="mt-[clamp(0.5rem,2vh,1rem)] text-[clamp(1.75rem,5.5vw,2.125rem)] leading-tight font-bold tracking-tight">Welcome Back, <br />
+          <img
+  src="https://files.catbox.moe/0yyb3c.jpg"
+  alt="MedRise"
+  width={1024}
+  height={1024}
+  className="h-[clamp(4.5rem,13vh,6.5rem)] w-full object-contain"
+/>          <h1 className="mt-[clamp(0.5rem,2vh,1rem)] text-[clamp(1.75rem,5.5vw,2.125rem)] leading-tight font-bold tracking-tight">Welcome Back, <br />
             MedRise Student</h1>
         </header>
 
