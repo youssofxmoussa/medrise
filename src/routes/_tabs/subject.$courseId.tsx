@@ -20,6 +20,11 @@ import lectureVideo from "@/assets/video/lecture.mp4.asset.json";
 import lecturePdf from "@/assets/docs/lecture-notes.pdf.asset.json";
 import { VideoPlayer, MinimalVideoSkin, Video } from "@videojs/react/video";
 import "@videojs/react/video/minimal-skin.css";
+.video-js button,
+.video-js .vjs-control {
+  background: transparent !important;
+  background-color: transparent !important;
+}
 
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
