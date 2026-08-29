@@ -13,7 +13,7 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { applyAppearance, readAppearance } from "../lib/appearance";
 
-const siteUrl = "https://id-preview--c881f9c6-9dc2-4834-a0dd-6179de259902.lovable.app";
+const siteUrl = "https://medrisextest.vercel.app";
 
 function NotFoundComponent() {
   return (
