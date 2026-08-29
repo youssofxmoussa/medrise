@@ -1,7 +1,7 @@
 const SESSION_KEY = "medrise_demo_session";
 
-export const DEMO_EMAIL = "ossama@gmail.com";
-export const DEMO_PASSWORD = "ossama1?";
+export const DEMO_EMAIL = "hsein@gmail.com";
+export const DEMO_PASSWORD = "hsein1?";
 
 export function hasDemoSession() {
   if (typeof window === "undefined") return false;
