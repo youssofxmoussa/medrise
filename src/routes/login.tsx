@@ -65,7 +65,7 @@ function SignIn() {
       >
         <header className="flex flex-col items-center text-center">
           <img
-  src="https://files.catbox.moe/0yyb3c.jpg"
+  src="https://files.catbox.moe/be2dnd.png"
   alt="MedRise"
   width={1024}
   height={1024}
